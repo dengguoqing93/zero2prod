@@ -1,6 +1,6 @@
-use emailReport::configuration::get_configuration;
-use emailReport::startup::run;
-use emailReport::telemetry::{get_subscriber, init_subscriber};
+use zero2prod::configuration::get_configuration;
+use zero2prod::startup::run;
+use zero2prod::telemetry::{get_subscriber, init_subscriber};
 use secrecy::ExposeSecret;
 use sqlx::PgPool;
 use std::net::TcpListener;

@@ -885,30 +885,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "emailReport"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "config",
- "env_logger",
- "log",
- "once_cell",
- "reqwest",
- "secrecy",
- "serde",
- "sqlx",
- "tokio",
- "tracing",
- "tracing-actix-web",
- "tracing-bunyan-formatter",
- "tracing-log 0.2.0",
- "tracing-subscriber",
- "unicode-segmentation",
- "uuid",
- "validator",
-]
-
-[[package]]
 name = "encoding_rs"
 version = "0.8.35"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4083,6 +4059,30 @@ dependencies = [
  "quote",
  "syn",
  "synstructure",
+]
+
+[[package]]
+name = "zero2prod"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "config",
+ "env_logger",
+ "log",
+ "once_cell",
+ "reqwest",
+ "secrecy",
+ "serde",
+ "sqlx",
+ "tokio",
+ "tracing",
+ "tracing-actix-web",
+ "tracing-bunyan-formatter",
+ "tracing-log 0.2.0",
+ "tracing-subscriber",
+ "unicode-segmentation",
+ "uuid",
+ "validator",
 ]
 
 [[package]]
